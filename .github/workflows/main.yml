@@ -4,12 +4,12 @@ on:
 jobs:
   build:
     name: run python
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install dependencies
       run: |
-        pip3 install --Upgrade pip
+        pip3 install --upgrade pip
     - name: Run python
       run: |
         python3 20240526.py
