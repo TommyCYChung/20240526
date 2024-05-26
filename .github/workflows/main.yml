@@ -8,5 +8,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run python
-      run:
+      run: |
         python3 20240526.py
