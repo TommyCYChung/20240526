@@ -7,6 +7,9 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
     - uses: actions/checkout@v2
+    - name:Install dependencies
+      run: |
+        pip3 install --Upgrade pip
     - name: Run python
       run: |
         python3 20240526.py
