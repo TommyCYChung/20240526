@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-lastest
     steps:
     - uses: actions/checkout@v2
-    - name:Install dependencies
+    - name: Install dependencies
       run: |
         pip3 install --Upgrade pip
     - name: Run python
