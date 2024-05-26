@@ -1,6 +1,6 @@
 name: Run Python 20240526
 on:
-  #push: # do this every push
+  push: # do this every push
   schedule:
   - cron: "0 8 * * *"
 jobs:
